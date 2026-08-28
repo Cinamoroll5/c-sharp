@@ -1,0 +1,9 @@
+﻿using Dragons;
+using Players;
+var mushu=new Dragon(1000,2,"red",20000);
+var toothless=new Dragon(1001,4,"black",30000);
+var mia=new Player("mia",500000,"kunai","katana");
+
+Console.WriteLine(mushu.colour);
+Console.WriteLine(toothless.health);
+Console.WriteLine(mia.mainweapon);
